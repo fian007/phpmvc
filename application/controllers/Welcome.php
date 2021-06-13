@@ -27,7 +27,7 @@ class Welcome extends CI_Controller
 		$this->load->library('session');
 	}
 
-	public function index($nama = 'Ultraman')
+	public function index($nama = 'Pak faruk')
 	{
 		$data['judul'] = 'Halaman Home';
 		$data['nama'] = $nama;
@@ -168,7 +168,7 @@ class Welcome extends CI_Controller
 		}
 	}
 
-	public function utama($nama = 'Ultraman')
+	public function utama($nama = 'Pak Faruk')
 	{
 		$data['nama'] = $nama;
 		$this->load->view('auth/utama', $data);
